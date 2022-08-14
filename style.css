@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ClearFix::after{
+    content: "";
+    clear: both;
+    display:block;
+
+}
+.logo img{
+    width: 116px;
+    margin-top: 12px;
+    
+}
+
+
+.content img{
+    width: 300px;
+    height: auto;
+}
+
+.website{
+    width: 900px;
+    border: 1px solid #4e3838;
+    margin: auto;
+    box-shadow: 0px 0px 6px -1px #403b3b;
+    cursor: pointer;
+}
+
+.banner-img{
+    background-image: url(./img/share-data-computers.jpg.optimal.jpg);
+    background-size:contain;
+    position:top center ;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.banner-img{
+    padding:208px 0;
+    text-align: center;
+}
+.logo{
+    width:30%;
+    float: left;
+
+
+}
+.menubar{
+    width: 70%;
+    float: right;
+    margin-top: 20px
+
+}
+
+.wrapper-menu li {
+    display: inline-block;
+    /* background: tomato; */
+
+}
+.wrapper-menu li:hover{
+   /* background: rgb(23, 83, 75); */
+   color: white;
+  
+}
+.wrapper-menu li a:hover{
+    color: white;
+}
+
+.wrapper-menu li a{
+    display: inline-block;
+    padding: 14px 37px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu{
+    background: rgb(165, 154, 154);
+    /* margin-bottom: 20px; */
+    border-bottom: 1px solid orange;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.banner-img{
+    margin-bottom: 20px;
+}
+.div{
+    width: 300px;
+    height: atuo;
+    border-bottom: 2px solid orange;
+    margin:auto;
+
+}
+.div h1{
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.content{}
+.description{
+    float: left;
+    width: 70%;
+    margin-top: 60px;
+}
+.description img{
+    float: left;
+    margin-right: 10px;
+    margin-left: 5px;
+    
+}
+.description p{
+    
+    
+}
+.notification{
+    width: 22%;
+    float: right;
+    margin-top: 52px
+}
+.notification {}
+.h2{
+    border-bottom: 2px solid red;
+    margin-top: -3px
+}
+.h2 h2{
+    text-align: center;
+    margin-bottom: 4px
+}
+.wrapper-menu2{
+    margin-top: 17px;
+    line-height: 27px
+}
+.wrapper-menu2 li{
+    list-style: normal;
+}
+.wrapper-menu2 li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sevices{
+    margin-top: 35px;
+}
+.main-sevices{
+    width: 300px;
+    border-bottom: 2px solid tomato;
+    margin: atuo;
+    text-align: centter;
+    margin: auto;
+}
+.main-sevices h1{
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold
+}
+.services1{
+    width: 32.3%;
+    border: 1px solid black;
+    float: left;
+    margin-right: 4px;
+    margin-left: 3px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.services1:hover{
+    transform: scale(0.9);
+}
+.services1 h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 2px
+}
+.services1 p{
+    text-align: center
+}
+.footer{
+    background: #736e6e;
+    margin-top: 20px;
+    padding: 20px;
+}
+.footer h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
